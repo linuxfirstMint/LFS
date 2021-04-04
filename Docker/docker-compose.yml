@@ -1,0 +1,7 @@
+lfs:
+  build: "./app"
+  container_name: "lfs"
+  working_dir: "/work"
+  volumes:
+    -  "$HOME/Develop/LFS:/work"
+  tty: on
